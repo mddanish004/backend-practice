@@ -2,11 +2,22 @@
   "name": "backend-project",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/mddanish004/backend-practice#readme",
+  "bugs": {
+    "url": "https://github.com/mddanish004/backend-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mddanish004/backend-practice.git"
+  },
   "license": "ISC",
-  "author": "Md Danish Ansari",
+  "author": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
